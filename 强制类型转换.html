@@ -5,17 +5,22 @@
 		<title></title>
 		<script type="text/javascript">
 			//字面量=常量
-			var a = 'a';
-			
+			// var a = 'a';
+	
 			
 			//调用String()
-			var b = 559;
-			b = String(b);
-			var c = 999;
-			c = c.toString();
-			// a = "hello";
-			alert(typeof a);
-			alert(typeof c);
+			// var b = 559;
+			// b = String(b);
+			// var c = 999;
+			
+			// c = c.toString();
+			// // a = "hello";
+			
+			//调用global的方法
+			var a = '123';
+			document.write("<li>a的值"+parseInt(a)+"<br>");
+			document.write("<li>a的类型"+typeof parseInt(a)+"<br>");
+			
 		</script>
 	</head>
 	<body>

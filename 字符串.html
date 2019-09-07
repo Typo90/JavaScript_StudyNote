@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			var a = "HelloWorld";
+			
+			//居中设置 <p>标签
+			document.write("<p align=\"center\">")
+			
+			//字体加粗
+			document.write(a.bold()+"<br>");
+			//加颜色
+			document.write(a.fontcolor("blue"));
+			
+			document.write("</p>")
+			
+			//string 数组
+			var arr = new Array();
+			
+			//函数
+			function Car( owner, rate){
+				this.owner = owner;
+				this.rate = rate;
+			}
+			var MyCar = new Car("Pyc","400km/h");
+			document.write(MyCar.owner+MyCar.rate);
+			
+		</script>
+	</head>
+
+	<body>
+	</body>
+</html>
